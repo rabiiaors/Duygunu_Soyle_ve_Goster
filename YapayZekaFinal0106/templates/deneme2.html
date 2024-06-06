@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duygu ve Konuşma Analizi</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url('https://images.unsplash.com/photo-1516822003754-cca485356ecb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fGVtb3Rpb25zfGVufDB8fHx8MTY4Nzk0NjAxMg&ixlib=rb-1.2.1&q=80&w=1080');
+            background-size: cover;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            color: #ffffff;
+        }
+
+        .container {
+            margin-top: 50px;
+        }
+        .header, .form-container {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #343a40;
+        }
+        .video-stream img {
+            border-radius: 8px;
+            width: 100%;
+        }
+        .form-container h2 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: #343a40;
+        }
+        #result p {
+            font-size: 1.2rem;
+            margin: 5px 0;
+        }
+        #result .transcription { color: #007bff; }
+        #result .emotion { color: #28a745; }
+        #result .score { color: #ffc107; }
+        #result .feedback { color: #dc3545; }
+        #result .attempts-left { color: #17a2b8; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header text-center">
+            <h1>Duygu ve Konuşma Analizi</h1>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="video-stream">
+                    <h2>Video Akışı:</h2>
+                    <img src="{{ url_for('video_feed') }}" alt="Video Akışı" />
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-container">
+                    <h2>Duygu Seçimi ve Konuşma:</h2>
+                    <form id="emotion-form">
+                        <div class="form-group">
+                            <label for="emotion">Bir duygu seçin:</label>
+                            <select class="form-control" id="emotion" name="emotion">
+                                <option value="happy">happy</option>
+                                <option value="sad">sad</option>
+                                <option value="angry">angry</option>
+                                <option value="surprise">surprise</option>
+                                <option value="fear">fear</option>
+                                <option value="disgust">disgust</option>
+                                <option value="neutral">neutral</option>
+                                  <option value="excited">excited</option>
+                                <option value="confused">confused</option>
+                                <option value="shy">shy</option>
+                                <option value="curious">curious</option>
+                            </select>
+                        </div>
+                        <button type="button" class="btn btn-primary" onclick="startRecording()">Kaydı Başlat</button>
+                    </form>
+                    <div id="result" class="mt-4">
+                        <!-- Sonuçlar burada görünecek -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function startRecording() {
+            const emotion = document.getElementById('emotion').value;
+            let attemptsLeft = 3;
+
+            fetch('/start_recording', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ selected_emotion: emotion, attempts_left: attemptsLeft })
+            })
+            .then(response => response.json())
+            .then(data => {
+                const resultDiv = document.getElementById('result');
+                if (data.error) {
+                    resultDiv.innerHTML = `<p class="error">${data.error}</p>`;
+                } else {
+                    resultDiv.innerHTML = `
+                        <p class="transcription">Transkripsiyon: ${data.transcription}</p>
+                        <p class="emotion">Duygu: ${data.emotion}</p>
+                        <p class="score">Puan: ${data.score}</p>
+                        <p class="feedback">Geri Bildirim: ${data.feedback}</p>
+                        <p class="attempts-left">Kalan Hak: ${data.attempts_left}</p>
+                    `;
+                }
+            })
+            .catch(error => console.error('Hata:', error));
+        }
+    </script>
+</body>
+</html>

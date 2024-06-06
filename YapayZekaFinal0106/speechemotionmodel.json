@@ -1,0 +1,33 @@
+{
+    "mutlu": [
+        "mutlu", "neşeli", "hoşnut", "gülümseyen", "sefa dolu", "umutlu", "kahkahalı", "coşkulu", "şenlikli", "ferahlık", "güzel", "heyecan", "sevinçli", "keyifli", "kahkahalı", "havalı", "inanılmaz", "muhteşem", "şahane", "çok hoş", "gülmek", "harika", "mükemmel", "neşe dolu", "tatmin olmuş", "şen", "mutlu hissetmek", "gülerek", "mutluluk verici", "keyif almak", "rahatlamak", "huzur içinde", "sevgi dolu", "bayram sevinci", "yıldız gibi parlamak", "güzel", "gülücük saçmak"
+    ],
+    "üzgün": [
+        "üzgün", "hüzünlü", "kederli", "morali bozuk", "hüzün içinde", "mahzun", "gamlı", "kötü", "cansıkıcı", "canı sıkılmış", "melankolik", "hay aksi", "of", "ne yazık", "kahretsin", "hasta", "yalnız", "üzüntüden", "ağlamak", "gözyaşı", "mutsuz", "karamsar", "üzgün bir şekilde", "iç çekmek", "acı dolu", "kalbi kırık", "yıkılmış", "üzgünlük", "hüsran", "karanlık düşünceler", "umutsuz", "endişeli", "üzgün surat", "hayal kırıklığı"
+    ],
+    "kızgın": [
+        "kızgın", "öfkeli", "sinirli", "hiddetli", "öfke içinde", "hırslı", "telaşlı", "sakin değil", "galeyana gelmiş", "çılgına dönmüş", "yapma", "küplere binmiş", "çileden çıkmış", "kızgın bakışlar", "bağırmak", "sinir krizi", "patlamak üzere", "hışımla", "sinirli bir şekilde", "kükremek", "dişlerini sıkmak", "yumruğunu sıkmak", "bağırıp çağırmak", "öfke patlaması", "sinir harbi", "öfkeli surat", "kavga etmek", "kırmızı görmek", "delirmek", "kinlenmek"
+    ],
+    "şaşkın": [
+        "şaşkın", "şaşırmış", "hayret etmiş", "şaşırtıcı", "şaşkına dönmüş", "afallamış", "şok olmuş", "hayrete düşmüş", "şaşkın bakışlarla", "şaşırmış bir şekilde", "şaşıran", "hayret içinde", "şaşkınlıkla", "vay canına", "ne garip", "aman Allah'ım", "hıı", "nasıl yani", "şaşırdım kaldım", "gerçekten mi", "şaşırtıcı", "şaşkın", "hayretler içinde", "dondum kaldım", "ağzı açık kaldı", "şaşırtan", "beklenmedik", "şok edici", "sürpriz", "şok halinde", "şaşırmış bakışlar", "inanılmaz"
+    ],
+    "korkmuş": [
+        "korkmuş", "korku içinde", "endişeli", "ürkmüş", "dehşete kapılmış", "dehşet içinde", "endişeyle dolmuş", "korkuya kapılmış", "korku dolu", "titrek", "şaşırmış", "panik içinde", "dehşetle", "ter içinde", "çaresiz", "dehşetli", "ürkmüş", "Yardım!", "Aman Allah'ım!", "Şimdi ne yapacağım?", "Dur!", "Lütfen bırakın beni!", "Korkuyorum!", "Acil yardım!", "Durun!", "Nasıl olur bu?", "Yardım edin!", "Eyvah", "kabus gibi", "endişe", "tedirgin", "korku verici", "korkudan titremek", "ödü kopmak", "felaket", "panik atak"
+    ],
+    "meraklı": [
+        "meraklı", "ilgili", "araştırmacı", "bilmek isteyen", "soru soran", "keşfetmek isteyen", "öğrenmeye açık", "inceleyen", "araştıran", "merak içinde", "merak eden", "dikkatli", "gözlemci", "meraklanmış", "soruşturmacı", "ilgisini çeken", "keşfetmeye hevesli", "bilgi arayan", "gözlemleyen", "sorgulayıcı", "ilgi duyan", "meraklı bakışlar", "dikkatle bakan", "detayları inceleyen", "merak uyandıran", "sorular sormak", "keşfetmek", "merakını gidermek", "bilinmeyeni öğrenmek", "çözmek isteyen", "inceleme yapmak"
+    ],
+    "inatçı": [
+        "inatçı", "direnen", "ısrarcı", "inadi", "geri adım atmayan", "ısrar eden", "katı", "kararlı", "dik kafalı", "dirençli", "inatçılık", "kararlılık", "tutkulu", "sebat eden", "diretmek", "vazgeçmeyen", "inatla", "inatçı bir şekilde", "ısrarlı", "ısrarla", "sabit fikirli", "geri çekilmeyen", "tavizsiz", "direnmek", "azimli", "dirayetli", "tuttuğunu koparan", "inadına", "inatçı tavır", "dik başlı", "inatçı bakışlar", "direnç göstermek"
+    ],
+    "utangaç": [
+        "utangaç", "çekingen", "mahcup", "utangaçlık içinde", "çekinerek", "kendine güvenmeyen", "sessiz", "içine kapanık", "sıkılgan", "çekingen bakışlar", "utanmış", "yüzü kızaran", "sessizce", "utangaçça", "utangaç bakışlar", "utanma duygusu", "mahcubiyet", "sessiz kalmak", "içe dönük", "ürkek", "tedirgin", "sessizce oturmak", "utangaçça davranmak", "başını eğmek", "göz teması kurmamak", "kısık sesle", "mahcup bir şekilde", "utanarak", "çekinmek", "çekinerek konuşmak", "ürkek bakışlar", "hafifçe gülümsemek"
+    ],
+    "heyecanlı": [
+        "heyecanlı", "coşkulu", "heyecan içinde", "heyecanlanmış", "heyecanlı bir şekilde", "canlı", "hareketli", "enerjik", "sevinçli", "yerinde duramayan", "heyecanla bekleyen", "hevesli", "istekli", "merakla", "coşkuyla", "kalbi çarpan", "adrenalin dolu", "tüyleri diken diken", "heyecanla dolu", "sabırsız", "heyecan verici", "kıpır kıpır", "heyecanı yüzünden okunan", "nefes nefese", "heyecanlı sesle", "sevgi dolu", "sabırsızca", "coşkuyla beklemek", "kollarını açmak", "gözleri parlamak", "heyecanlandırıcı"
+    ],
+    "kafası karışık": [
+        "kafası karışık", "şüpheci", "kararsız", "ne yapacağını bilmeyen", "çelişkili", "karmaşık", "şaşırmış", "bulanık", "karışık", "tereddütlü", "belirsizlik", "düşünceli", "ikilemde", "muallakta", "çözemedim", "kafası karışmış bir şekilde", "anlaşılmaz", "bulanık düşünceler", "zihin bulanıklığı", "karışık duygular", "ikilem içinde", "net olmayan", "karışık düşünceler", "kafa karıştırıcı", "çelişkili düşünceler", "bulanıklık", "yolunu kaybetmiş", "kafa karışıklığı", "bulanık zihin", "ne yapacağını bilememek", "kararsız kalmak", "şaşkınlık içinde", "karmaşa"
+    ]
+}
+

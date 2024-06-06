@@ -1,0 +1,93 @@
+{
+    "mutlu": [
+        "gülümseyen",
+        "neşe dolu",
+        "şenlikli",
+        "kahkahalı",
+        "havalı",
+        "muhteşem",
+        "neşeli",
+        "coşkulu"
+    ],
+    "üzgün": [
+        "umutsuz",
+        "of",
+        "kederli",
+        "morali bozuk",
+        "karamsar",
+        "ne yazık",
+        "canı sıkılmış"
+    ],
+    "kızgın": [
+        "öfkeli surat",
+        "kırmızı görmek",
+        "hırslı",
+        "küplere binmiş",
+        "kavga etmek",
+        "dişlerini sıkmak"
+    ],
+    "şaşkın": [
+        "şok olmuş",
+        "şaşıran",
+        "hayretler içinde",
+        "sürpriz",
+        "şaşırdım kaldım",
+        "şok halinde",
+        "vay canına"
+    ],
+    "korkmuş": [
+        "ürkmüş",
+        "çaresiz",
+        "Şimdi ne yapacağım?",
+        "korkudan titremek",
+        "Durun!",
+        "dehşete kapılmış",
+        "Eyvah",
+        "şaşırmış"
+    ],
+    "meraklı": [
+        "sorgulayıcı",
+        "meraklı",
+        "keşfetmeye hevesli",
+        "inceleme yapmak",
+        "bilgi arayan",
+        "keşfetmek isteyen",
+        "merak uyandıran"
+    ],
+    "inatçı": [
+        "katı",
+        "tavizsiz",
+        "direnmek",
+        "azimli",
+        "inatçı bir şekilde",
+        "dik başlı",
+        "sebat eden"
+    ],
+    "utangaç": [
+        "ürkek bakışlar",
+        "utanmış",
+        "utanarak",
+        "çekingen",
+        "çekinmek",
+        "mahcup",
+        "utangaç bakışlar"
+    ],
+    "heyecanlı": [
+        "nefes nefese",
+        "istekli",
+        "coşkulu",
+        "heyecanlanmış",
+        "gözleri parlamak",
+        "heyecan verici",
+        "kıpır kıpır"
+    ],
+    "kafası karışık": [
+        "ikilemde",
+        "kafa karışıklığı",
+        "şaşırmış",
+        "kararsız kalmak",
+        "kafası karışmış bir şekilde",
+        "yolunu kaybetmiş",
+        "belirsizlik"
+    ]
+}
